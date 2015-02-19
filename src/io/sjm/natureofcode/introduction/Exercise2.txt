@@ -1,0 +1,8 @@
+> What is the probability of drawing two aces in a row from a deck of fifty-two
+> cards?
+
+There are 4 aces in a 52 card pack so the probability of drawing 1 aces is
+4 / 52. Therefore the probability of drawing 2 aces in a row is:
+
+(4 / 52) * (4 / 52)
+= 0.00591715976331360947
