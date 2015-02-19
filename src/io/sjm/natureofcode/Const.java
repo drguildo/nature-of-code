@@ -1,6 +1,6 @@
 package io.sjm.natureofcode;
 
 public class Const {
-  public final float BLACK = 0x0;
-  public final float WHITE = 0x255;
+  public final int BLACK = 0x0;
+  public final int WHITE = 0x255;
 }
