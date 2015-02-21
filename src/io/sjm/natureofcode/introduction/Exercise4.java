@@ -9,9 +9,6 @@ import processing.core.PApplet;
 public class Exercise4 extends PApplet {
   private static final long serialVersionUID = 1L;
 
-  private final int WIDTH = 1280;
-  private final int HEIGHT = 720;
-
   private Random generator;
 
   private int x, y, r, g, b;
@@ -19,13 +16,13 @@ public class Exercise4 extends PApplet {
   public void setup() {
     generator = new Random();
 
-    size(WIDTH, HEIGHT);
+    size(1280, 720);
     background(Const.BLACK);
   }
 
   public void draw() {
-    x = adjust(WIDTH / 2);
-    y = adjust(HEIGHT / 2);
+    x = adjust(width / 2);
+    y = adjust(height / 2);
 
     r = adjust(generator.nextInt(Const.WHITE / 2));
     g = adjust(generator.nextInt(Const.WHITE / 2));
